@@ -1,0 +1,42 @@
+.root {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #1a171e;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+}
+.logo {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.logoImg {
+  width: 50px;
+  height: 50px;
+}
+.logoText {
+  font-size: 24px;
+  color: rgb(216, 55, 58);
+}
+.title {
+  color: #777;
+}
+.hr {
+  height: 0px;
+  border: 0.5px solid #777;
+  width: 100%;
+}
+.list {
+  padding: 1px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listItem {
+  cursor: pointer;
+}
